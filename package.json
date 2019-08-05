@@ -1,0 +1,35 @@
+{
+  "name": "supine",
+  "version": "1.0.0",
+  "description": "supine the Algerian slack clone made with love built using react + graphql + node  ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larbibaraka/supine.git"
+  },
+  "keywords": [
+    "react",
+    "graphql",
+    "slack",
+    "clone",
+    "supine"
+  ],
+  "author": "baraka larbi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larbibaraka/supine/issues"
+  },
+  "homepage": "https://github.com/larbibaraka/supine#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.1"
+  }
+}
